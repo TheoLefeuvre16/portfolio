@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/pages.js"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -19,12 +21,18 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
+						<h1><a href="index.html">Accueil</a></h1>
+						<nav style="right:1%;">
 							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+						<input id="clickMe" class="special" type="button" value="EN"  style="right:1%;"onclick="newENPage()" />
 
+						</nav>
+						
+
+					</header>
+			
+					
+				</header>
 				<!-- Menu -->
 					<nav id="menu">
 						<div class="inner">
@@ -44,8 +52,8 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon vr-cardboard"></span></div>
-							<h2>Hi, my name is Théo Lefeuvre</h2>
-							<p>I'm a software engineer specialized in virtual reality looking for an internship </p>
+							<h2>Bonjour, je suis Théo Lefeuvre</h2>
+							<p>Etudiant en 5e année d'école d'ingénieur d'informatique à l'ESIEA en spécialité Réalité Virtuelle et Systèmes Immersifs </p>
 						</div>
 					</section>
 
@@ -58,8 +66,10 @@
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Stellarium</h2>
-										<p>The goal of the project is to design a fun way to learn about astronomy in virtual reality. It is centered around 4 workshops that will take the form of puzzles and games.</p>
-										<a href="#" class="special">Learn more</a>
+										<p>Le but du projet est de concevoir un moyen ludique et tout public d’apprendre l’astronomie en réalité virtuelle. C’est centré autour de 4 ateliers qui prendront la forme d’énigmes et de jeux.</p>
+										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
+										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+
 									</div>
 								</div>
 							</section>
@@ -70,9 +80,9 @@
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Shoot 'em up</h2>
-										<p>Project realized with two people during a 2 weeks gamejam. We realized all the mechanics, vfx effects...</p>
-										<a href="#" class="special">Unity Blender</a>
-										<a href="#" class="special">Learn more</a>
+										<p>Projet réalisé à deux lors d’une gamejam de 2 semaines. Nous avons réalisé l’ensemble des mécaniques, effets vfx...</p>
+										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
+										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
 									</div>
 								</div>
 							</section>
@@ -82,9 +92,10 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Electric scooter virtual reality simulator</h2>
-										<p>Electric scooter simulator in virtual reality. To simulate the speed and the slopes, we used motors and an ESP32 electronic card allowing the communication with unity. I realized the electronic part and the experience in virtual reality.Presented at Laval Virtual 2021</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Simulateur de trottinette electrique en réalité virtuelle</h2>
+										<p>Simulateur de trottinette électrique en réalité virtuelle. Pour simuler la vitesse et les pentes, nous avons utilisés des moteurs et une carte électronique ESP32 permettant la communication avec unity. J’ai réalisé la partie électronique et l’expérience en réalité virtuelle.Presented at Laval Virtual 2021</p>
+										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
+										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
 									</div>
 								</div>
 							</section>
@@ -94,8 +105,9 @@
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 							<div class="content">
 								<h2 class="major">Fractales</h2>
-								<p>Fractal generation and customization project to learn how to program vertex and fragment shaders under unity. </p>
-								<a href="#" class="special">Learn more</a>
+								<p>Projet de génération de fractales et personnalisation afin d’apprendre à programmer des vertex et fragment shaders sous unity.  </p>
+								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
+										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
 							</div>
 						</div>
 					</section>
@@ -104,9 +116,10 @@
 						<div class="inner">
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 							<div class="content">
-								<h2 class="major">Procedural generation</h2>
-								<p>Quick project to discover how to generate a land procedurally. Use of the A* algorithm to create rivers.</p>
-								<a href="#" class="special">Learn more</a>
+								<h2 class="major">Génération procédurale de terrains</h2>
+								<p>Projet rapide pour découvrir comment générer un terrain de manière procédurale. Utilisation de l'algorithme A* pour créer des rivières.</p>
+								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
+										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
 							</div>
 						</div>
 					</section>
