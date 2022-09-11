@@ -24,7 +24,7 @@
 						<h1><a href="index.html">Accueil</a></h1>
 						<nav style="right:1%;">
 							<a href="#menu">Menu</a>
-						<input id="clickMe" class="special" type="button" value="EN"  style="right:1%;"onclick="newENPage()" />
+						<input id="clickMe" class="special" type="button" value="EN"  style="right:1%;"onclick="newPage('./indexEN.html')" />
 
 						</nav>
 						
@@ -63,12 +63,15 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay >
+										<source src = "./videos/video_01.mp4"> 
+									</video>
 									<div class="content">
 										<h2 class="major">Stellarium</h2>
-										<p>Le but du projet est de concevoir un moyen ludique et tout public d’apprendre l’astronomie en réalité virtuelle. C’est centré autour de 4 ateliers qui prendront la forme d’énigmes et de jeux.</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+										<h3>2021</h3>
+										<p>Passionné par l’astronomie, le but était créer un outil éducatif et ludique permettant de découvrir l’astronomie à l’aide de la réalité virtuelle. Plusieurs ateliers permettent à l’utilisateur d’en apprendre plus sur les constellations et leur histoire.</p>
+										<a  class="special">Unity 3D, Blender, Occulus Quest</a>
+										<!--<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('./assets/pages/FR/Stellarium.html')" />-->
 
 									</div>
 								</div>
@@ -77,12 +80,15 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay >
+										<source src = "./videos/video_03.mp4"> 
+									</video>									
 									<div class="content">
 										<h2 class="major">Shoot 'em up</h2>
-										<p>Projet réalisé à deux lors d’une gamejam de 2 semaines. Nous avons réalisé l’ensemble des mécaniques, effets vfx...</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+										<h3>2021</h3>
+										<p>Projet réalisé lors d’une gamejam de 2 semaines. Le but était de réaliser un entièrement Shoot’ em up (gameplay, animations, VFX...). </p>
+										<a  href="https://theo-lefeuvre.itch.io/blackholostar" class="special">https://theo-lefeuvre.itch.io/blackholostar</a>
+										<a  class="special">Unity3D, Blender </a>
 									</div>
 								</div>
 							</section>
@@ -90,36 +96,46 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay style="object-fit:contain;width: 50em;">
+										<source src = "./videos/video_02.mp4"> 
+									</video>									
 									<div class="content">
 										<h2 class="major">Simulateur de trottinette electrique en réalité virtuelle</h2>
-										<p>Simulateur de trottinette électrique en réalité virtuelle. Pour simuler la vitesse et les pentes, nous avons utilisés des moteurs et une carte électronique ESP32 permettant la communication avec unity. J’ai réalisé la partie électronique et l’expérience en réalité virtuelle.Presented at Laval Virtual 2021</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+										<h3>2020-2021</h3>
+
+										<p>Simulateur de trottinette électrique en réalité virtuelle. Il s’agit d’un dispositif permettant de simuler les sensations perçues lors de la pratique de la trottinette électrique. Pour cela nous utilisons deux moteurs qui communiquent avec Unity à l’aide d’une carte électronique ESP32. Nous pouvons ainsi recréer les sensations de vitesse, de pente et de rotation.</p>
+										<a  class="special">Presenté à la compétition étudiante du Laval Virtual 2021</a>
+										<a  class="special">Unity3D, Arduino, Occulus Quest</a>
 									</div>
 								</div>
 							</section>
 					<!-- Four -->
 					<section id="two" class="wrapper alt spotlight style2">
 						<div class="inner">
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+							<video class="image" loop muted autoplay >
+								<source src = "./videos/video_04.mp4"> 
+							</video>	
 							<div class="content">
 								<h2 class="major">Fractales</h2>
-								<p>Projet de génération de fractales et personnalisation afin d’apprendre à programmer des vertex et fragment shaders sous unity.  </p>
-								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+								<h3>2022</h3>
+
+								<p>Projet de génération et customisation de fractales afin d’apprendre à programmer des vertex et fragment shaders sur Unity3D.  </p>
+								<a  class="special">Unity3D</a>
 							</div>
 						</div>
 					</section>
 					<!-- Five -->
 					<section id="three" class="wrapper spotlight style3">
 						<div class="inner">
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<video class="image" loop muted autoplay >
+								<source src = "./videos/video_05.mp4"> 
+							</video>	
 							<div class="content">
 								<h2 class="major">Génération procédurale de terrains</h2>
-								<p>Projet rapide pour découvrir comment générer un terrain de manière procédurale. Utilisation de l'algorithme A* pour créer des rivières.</p>
-								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('Stellarium.html')" />
+								<h3>2022</h3>
+
+								<p>Projet afin de découvrir comment peut être fait une génération procédurale d'un terrain. Utilisation de l'algorithme A* pour créer des rivières.</p>
+								<a  class="special">Unity3D, Blender</a>
 							</div>
 						</div>
 					</section>
@@ -127,24 +143,25 @@
 						<!-- Six -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Other projects/experiences</h2>
-									<p>Here are also some other student/human projects that I have done.</p>
+									<h2 class="major">Mes expériences</h2>
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">treasurer for the association Horizon Japon</h3>
-											<p>Association promoting Japanese culture within the school through various events. Also organizes internships in Japan.</p>
-											<!--<a href="#" class="special">Learn more</a>-->
+											<h3 class="major">Trésorier pour l'association Horizon Japon</h3>
+											<h3 class="">2019-2021</h3>
+											<p>Association étudiante promouvant la culture japonaise à travers de nombreux événements. Organise également des stages ouvriers au Japon.</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Hotel waiter - Japan</h3>
-											<p>Server internship in the Shigakogen area in Japan for 1 month. </p>
+											<h3 class="major"> Stage ouvrier au Japon - serveur</h3>
+											<h3 class="">Août 2019</h3>
+											<p>Stage ouvrier en tant que serveur au sein de l'hôtel Kumanoyu au Japon.</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">French for French as a foreign language</h3>
-											<p> Teaching French to people in difficulty in order to help them in their professional integration.</p>
+											<h3 class="major">Français langue étrangère</h3>
+											<h3 class="">2018-2019</h3>
+											<p>  Enseignement du français aux personnes en difficulté afin de les aider dans leur insertion professionnelle.</p>
 										</article>
 										<!--<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>

@@ -6,7 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+p{
+	text-align: justify;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3798,11 +3800,13 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				border-radius: 10%;
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 38em;
+				aspect-ratio: 1/1;
 				overflow: hidden;
 				-ms-flex: 1;
+				object-fit: cover;
 			}
 
 				.wrapper.spotlight .image img {
@@ -3820,9 +3824,9 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
 			}
-
+			
 			.wrapper.spotlight:nth-child(2n - 1) .image {
 				margin: 0 0 2em 3em;
 			}
