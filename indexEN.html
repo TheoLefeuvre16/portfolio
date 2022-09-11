@@ -6,7 +6,6 @@
 -->
 <html>
 	<head>
-		<title>Solid State by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,9 +20,8 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Accueil</a></h1>
+						<h1><a href="index.html">Home</a></h1>
 						<nav style="right:1%;">
-							<a href="#menu">Menu</a>
 						<input id="clickMe" class="special" type="button" value="FR"  style="right:1%;"onclick="newPage('./index.html')" />
 
 						</nav>
@@ -33,27 +31,13 @@
 			
 					
 				</header>
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-
+				
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon vr-cardboard"></span></div>
-							<h2>Hi, my name is Théo Lefeuvre</h2>
-							<p>I'm a software engineer specialized in virtual reality looking for an internship </p>
+							<h2>Hi, I'm Théo Lefeuvre</h2>
+							<p>Student in 5th year of computer science engineering school at ESIEA, specializing in Virtual Reality and Immersive Systems  </p>
 						</div>
 					</section>
 
@@ -63,12 +47,17 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay >
+										<source src = "./videos/video_01.mp4"> 
+									</video>
 									<div class="content">
 										<h2 class="major">Stellarium</h2>
-										<p>The goal of the project is to design a fun way to learn about astronomy in virtual reality. It is centered around 4 workshops that will take the form of puzzles and games.</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="Learn More" onclick="newPage('Stellarium.html')" />
+										<h3>2021</h3>
+										<p>Passionate about astronomy, the goal was to create an educational and fun tool to discover astronomy using virtual reality. Several workshops allow the user to learn more about the constellations and their history
+
+										</p>
+										<a  class="special">Unity 3D, Blender, Occulus Quest</a>
+										<!--<input id="clickMe" class="special" type="button" value="En savoir plus" onclick="newPage('./assets/pages/FR/Stellarium.html')" />-->
 
 									</div>
 								</div>
@@ -77,12 +66,15 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay >
+										<source src = "./videos/video_03.mp4"> 
+									</video>									
 									<div class="content">
 										<h2 class="major">Shoot 'em up</h2>
-										<p>Project realized with two people during a 2 weeks gamejam. We realized all the mechanics, vfx effects...</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="Learn More" onclick="newPage('Stellarium.html')" />
+										<h3>2021</h3>
+										<p>Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot' em up (gameplay, animations, VFX...) </p>
+										<a  href="https://theo-lefeuvre.itch.io/blackholostar" class="special">https://theo-lefeuvre.itch.io/blackholostar</a>
+										<a  class="special">Unity3D, Blender </a>
 									</div>
 								</div>
 							</section>
@@ -90,36 +82,48 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<video class="image" loop muted autoplay style="object-fit:contain;width: 50em;">
+										<source src = "./videos/video_02.mp4"> 
+									</video>									
 									<div class="content">
-										<h2 class="major">Electric scooter virtual reality simulator</h2>
-										<p>Electric scooter simulator in virtual reality. To simulate the speed and the slopes, we used motors and an ESP32 electronic card allowing the communication with unity. I realized the electronic part and the experience in virtual reality.Presented at Laval Virtual 2021</p>
-										<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="Learn More" onclick="newPage('Stellarium.html')" />
+										<h2 class="major">Electric scooter simulator in virtual reality</h2>
+										<h3>2020-2021</h3>
+
+										<p>
+											Electric scooter simulator in virtual reality. It is a device allowing to simulate the sensations perceived during the practice of the electric scooter. For that we use two motors which communicate with Unity using an electronic card ESP32. We can thus recreate the sensations of speed, slope and rotation
+										</p>
+										<a  class="special">Presented at the Laval Virtual 2021 student competition</a>
+										<a  class="special">Unity3D, Arduino, Occulus Quest</a>
 									</div>
 								</div>
 							</section>
 					<!-- Four -->
 					<section id="two" class="wrapper alt spotlight style2">
 						<div class="inner">
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+							<video class="image" loop muted autoplay >
+								<source src = "./videos/video_04.mp4"> 
+							</video>	
 							<div class="content">
-								<h2 class="major">Fractales</h2>
-								<p>Fractal generation and customization project to learn how to program vertex and fragment shaders under unity. </p>
-								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="Learn More" onclick="newPage('Stellarium.html')" />
+								<h2 class="major">Fractals</h2>
+								<h3>2022</h3>
+
+								<p>Fractal generation and customization project to learn how to program vertex and fragment shaders on Unity3D.  </p>
+								<a  class="special">Unity3D</a>
 							</div>
 						</div>
 					</section>
 					<!-- Five -->
 					<section id="three" class="wrapper spotlight style3">
 						<div class="inner">
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<video class="image" loop muted autoplay >
+								<source src = "./videos/video_05.mp4"> 
+							</video>	
 							<div class="content">
-								<h2 class="major">Procedural generation</h2>
-								<p>Quick project to discover how to generate a land procedurally. Use of the A* algorithm to create rivers.</p>
-								<a  class="special">Unity3D, Blender, OpenXR, Occulus</a>
-										<input id="clickMe" class="special" type="button" value="Learn More" onclick="newPage('Stellarium.html')" />
+								<h2 class="major">Procedural land generation</h2>
+								<h3>2022</h3>
+
+								<p>Project to discover how a procedural generation of a terrain can be done. Use of the A* algorithm to create rivers.</p>
+								<a  class="special">Unity3D, Blender</a>
 							</div>
 						</div>
 					</section>
@@ -127,24 +131,25 @@
 						<!-- Six -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Other projects/experiences</h2>
-									<p>Here are also some other student/human projects that I have done.</p>
+									<h2 class="major">My experiences</h2>
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">treasurer for the association Horizon Japon</h3>
-											<p>Association promoting Japanese culture within the school through various events. Also organizes internships in Japan.</p>
-											<!--<a href="#" class="special">Learn more</a>-->
+											<a href="#" class="image"><img src="images/HJ.png" alt="" /></a>
+											<h3 class="major">Treasurer for the student association Horizon Japon</h3>
+											<h3 class="">2019-2021</h3>
+											<p>Student association promoting Japanese culture through many events. Also organizes work experience in Japan.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Hotel waiter - Japan</h3>
-											<p>Server internship in the Shigakogen area in Japan for 1 month. </p>
+											<a href="#" class="image"><img src="images/hotel.jpg" alt="" /></a>
+											<h3 class="major">Work experience in Japan - waiter</h3>
+											<h3 class="">August 2019</h3>
+											<p>Work experience as a waiter at the Kumanoyu Hotel in Japan.</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">French for French as a foreign language</h3>
-											<p> Teaching French to people in difficulty in order to help them in their professional integration.</p>
+											<a href="#" class="image"><img src="images/FLE.jpg" alt="" /></a>
+											<h3 class="major">French for French as a foreign language (FLE)</h3>
+											<h3 class="">2018-2019</h3>
+											<p>Teaching French to people in difficulty in order to help them in their professional integration.</p>
 										</article>
 										<!--<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
@@ -166,10 +171,9 @@
 						<div class="inner">
 							<h2 class="major">Contact me</h2>
 							<ul class="contact">
-								
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-phone">+33 06 17 16 38 23</li>
+								<li class="icon solid fa-envelope"><a >theo.lefeuvre@hotmail.fr</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://linkedin.com/in/théo-lefeuvre">Théo Lefeuvre</a></li>
 							</ul>
 							
 						</div>
