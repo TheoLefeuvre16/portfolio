@@ -1,0 +1,64 @@
+{
+	"experience":
+	[
+		{
+			"date": 2022,
+			"type": "Software engineer intern",
+			"title": "Haptique Réalité Virtuelle & Simulation",
+			"description": "Development of a virtual ride application connected to a bike simulator using the Google Maps API.Development of a virtual world and game mechanics on Unreal Engine 5.",
+			"tags":
+			[
+				{ "name": "C#" },
+				{ "name": "Unreal Engine 5" },
+				{ "name": "ReactJs"},
+				{ "name": "ElectronJs"},
+				{ "name": "TypeScript"},
+				{ "name": "HTML"},
+				{ "name": "Google Map API"}
+			],
+			"link": "https://hrv-simulation.com/",
+			"video": "none",
+			"image": "resources/images/experience/hrv.png"
+		},
+		{
+			"date": "2019-2021",
+			"type": "Student association",
+			"title": "Treasurer for the student association Japan Horizon",
+			"description": "Student association promoting Japanese culture through many events. Also organizes work experience in Japan.",
+			"tags":
+			[
+				{ "name": "", "url": "" }
+			],
+			"link": "https://www.esiea.fr/association/horizon-japon/",
+
+			"video": "none",
+			"image": "resources/images/experience/HJ.png"
+		},
+		{
+			"date": "August 2019",
+			"type": "Internship",
+			"title": "Work experience in Japan - waiter",
+			"description": "A one month worker internship where I created a database of autopsy reports and modified high speed crash test footage.",
+			"tags":
+			[
+				{ "name": "", "url": "" }
+			],
+			"link": "https://www.kumanoyu.co.jp/hotel/",
+			"video": "none",
+			"image": "resources/images/experience/hotel.jpg"
+		},
+		{
+			"date": "2018-2019",
+			"type": "Human project",
+			"title": "French for french as a foreign Language (FLE)",
+			"description": "Teaching French to people in difficulty in order to help them in their professional integration.",
+			"tags":
+			[
+				{ "name": "", "url": "" }
+			],
+			"link": "https://www.fle.fr/?lang=en",
+			"video": "none",
+			"image": "resources/images/experience/FLE.jpg"
+		}
+	]
+}
