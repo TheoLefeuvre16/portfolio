@@ -85,6 +85,9 @@ function projects_events()
 
 			else
 			{
+				var isPlayable = false;
+				if(project.links.length >=3)
+					isPlayable = true;
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project" style="background-image: url(${project.image});">
 						<div class="project_text"">

@@ -13,9 +13,9 @@
 			],
 			"links":
 			[
-				"https://github.com/tlefeuvre/Stellarium",
-				"https://github.com/tlefeuvre/Stellarium",
-				"https://github.com/tlefeuvre/Stellarium"
+				"none",
+				"none",
+				"none"
 
 			],
 			"video": "",
@@ -39,7 +39,7 @@
 			[
 				"https://github.com/tlefeuvre/Stellarium",
 				"https://github.com/tlefeuvre/Stellarium",
-				"https://github.com/tlefeuvre/Stellarium"
+				"none"
 
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
@@ -85,7 +85,7 @@
 			[
 				"https://github.com/tlefeuvre/Scooter-Simulator",
 				"https://github.com/tlefeuvre/Scooter-Simulator",
-				"https://github.com/tlefeuvre/Scooter-Simulator"
+				"none"
 
 			],
 			"video": "resources/videos/projects/Scooter.mp4",
@@ -104,6 +104,9 @@
 			],
 			"links":
 			[
+				"none",
+				"none",
+				"none"
 		
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
@@ -125,7 +128,7 @@
 			[
 				"https://github.com/tlefeuvre/Fractals-Generator",
 				"https://github.com/tlefeuvre/Fractals-Generator",
-				"https://github.com/tlefeuvre/Fractals-Generator"
+				"none"
 
 
 			],
@@ -148,7 +151,7 @@
 			[
 				"https://github.com/tlefeuvre/Procedural-Land-Generation",
 				"https://github.com/tlefeuvre/Procedural-Land-Generation",
-				"https://github.com/tlefeuvre/Procedural-Land-Generation"
+				"none"
 
 			],
 			"video": "resources/videos/projects/Land.mp4",
