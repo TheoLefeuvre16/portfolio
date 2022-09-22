@@ -3,6 +3,28 @@
 	[
 		{
 			"date": 2021,
+			"type": "Internship",
+			"title": "Cycleo World",
+			"description": "Project realized during an internship at <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://hrv-simulation.com/en/home/' target='_blank'>HRV</a>. Creation of a virtual bike ride application.<br/><br/> Management of the game mechanics and communication with the electronic card of the <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://cottos.fr' target='_blank'>real bike</a>.",
+			"tags":
+			[
+				{ "name": "Unreal Engine 5", "url": "" },
+				{ "name": "C++", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/Stellarium",
+				"https://github.com/tlefeuvre/Stellarium",
+				"https://github.com/tlefeuvre/Stellarium"
+
+			],
+			"video": "",
+			"image": "resources/images/projects/Cycleo.PNG",
+			"logo": "",
+			"categories": ["School"]
+		},
+		{
+			"date": 2021,
 			"type": "School Project",
 			"title": "Stellarium",
 			"description": "Passionate about astronomy, the goal was to create an educational and fun tool to discover astronomy using virtual reality. Several workshops allow the user to learn more about the constellations and their history.",
@@ -51,7 +73,7 @@
 			"date": "2020-2021",
 			"type": "School Project",
 			"title": "Electric scooter simulator in virtual reality",
-			"description": "Project carried out in collaboration with the Japanese University of Tama and the French research laboratory PISC-L. <br/><br/> Presented at the student competition at Laval Virtual 2021. <br/><br/>Electric scooter simulator in virtual reality. It is an application that allows us to reproduce the sensations experienced while riding a scooter.<br/><br/>For this, we use 2 motors communicating with Unity through an ESP32 electronic board. We can thus recreate the sensations of speed, turn and slope.",
+			"description": "Project carried out in collaboration with the <a style='color:#00a2ff;font-weight: bold;'> Japanese University of Tama  </a> and the <a style='color:#00a2ff;font-weight: bold;'> French research laboratory PISC-L</a>. <br/><br/> Presented at the student competition at <a style='color:#00a2ff;font-weight: bold;'> Laval Virtual 2021</a>. <br/><br/>Electric scooter simulator in virtual reality. It is an application that allows us to reproduce the sensations experienced while riding a scooter.<br/><br/>For this, we use 2 motors communicating with Unity through an ESP32 electronic board. We can thus recreate the sensations of speed, turn and slope.",
 			"tags":
 			[
 				{ "name": "Unity3D", "url": "" },

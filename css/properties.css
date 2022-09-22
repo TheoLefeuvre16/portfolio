@@ -64,6 +64,7 @@ body
 	--fade_dark_blue: rgba(16, 29, 48, 0.9);
 	--black_title: #2b3954;
 	--black_text: #425466;
-	--dark_purple: rgb(57, 75, 120);
+	--dark_purple: linear-gradient( bottom,#394B78,#394B78);
+	background: linear-gradient( #455b92,#1a2646);
 	--purple: rgb(57, 75, 120);
 }

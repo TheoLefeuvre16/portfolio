@@ -16,7 +16,7 @@
 				{ "name": "HTML"},
 				{ "name": "Google Maps API"}
 			],
-			"link": "https://hrv-simulation.com/",
+			"link": "https://hrv-simulation.com/en/home/",
 			"video": "none",
 			"image": "resources/images/experience/hrv.png"
 		},
@@ -38,7 +38,7 @@
 			"date": "August 2019",
 			"type": "Internship",
 			"title": "Waiter in a japanese hotel",
-			"description": "Internship as a waiter in a fully Japanese environment in the <a class='link' href='https://www.kumanoyu.co.jp/hotel/' target='_blank'>kumanoyu Hotel</a> to improve my language skills and discover the culture.",
+			"description": "Internship as a waiter in a fully Japanese environment in the <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://www.kumanoyu.co.jp/hotel/' target='_blank'>kumanoyu Hotel</a> to improve my language skills and discover the culture.",
 			"tags":
 			[
 				{ "name": "", "url": "" }

@@ -150,17 +150,17 @@
 			"skills" :
 			[
 				{
-					"name": "French  fluent",
+					"name": "French native",
 					"logo": "resources/shapes/skills/French.svg",
 					"link": ""
 				},
 				{
-					"name": "English  TOEIC 850",
+					"name": "English TOEIC 850",
 					"logo": "resources/shapes/skills/English.svg",
 					"link": ""
 				},
 				{
-					"name": "Japanese  N4-N3",
+					"name": "Japanese N3",
 					"logo": "resources/shapes/skills/Japanese.svg",
 					"link": ""
 				}
