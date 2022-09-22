@@ -1,0 +1,139 @@
+{
+	"projects":
+	[
+		{
+			"date": 2021,
+			"type": "School Project",
+			"title": "Stellarium",
+			"description": "Passionate about astronomy, the goal was to create an educational and fun tool to discover astronomy using virtual reality. Several workshops allow the user to learn more about the constellations and their history.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Blender", "url": "" },
+				{ "name": "Occulus Quest", "url": "" },
+				{ "name": "VFX/shaders", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/TheoLefeuvre16/Stellarium",
+				"https://github.com/TheoLefeuvre16/Stellarium",
+				"https://github.com/TheoLefeuvre16/Stellarium"
+
+			],
+			"video": "resources/videos/projects/Fractals.mp4",
+			"image": "resources/images/projects/Fractals.png",
+			"logo": "",
+			"categories": ["School"]
+		},
+		{
+			"date": 2021,
+			"type": "School Project",
+			"title": "Shoot 'Em Up",
+			"description": "Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot 'Em Up by realizing the game mechanics, animations/VFX and a some of the 3D models.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Blender", "url": "" },
+				{ "name": "VFX/shaders", "url": "" }
+			],
+			"links":
+			[
+				"HTTPS://THEO-LEFEUVRE.ITCH.IO/BLACKHOLOSTAR",
+				"https://github.com/TheoLefeuvre16/ShootEm-up",
+				"HTTPS://THEO-LEFEUVRE.ITCH.IO/BLACKHOLOSTAR"
+			],
+			"video": "resources/videos/projects/Shoot.mp4",
+			"image": "resources/images/projects/Shoot.png",
+			"logo": "",
+			"categories": ["School"]
+		},
+		{
+			"date": "2020-2021",
+			"type": "School Project",
+			"title": "Electric scooter simulator in virtual reality",
+			"description": "Project carried out in collaboration with the Japanese University of Tama and the French research laboratory PISC-L. <br/><br/> Presented at the student competition at Laval Virtual 2021. <br/><br/>Electric scooter simulator in virtual reality. It is an application that allows us to reproduce the sensations experienced while riding a scooter.<br/><br/>For this, we use 2 motors communicating with Unity through an ESP32 electronic board. We can thus recreate the sensations of speed, turn and slope.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Arduino","url": "" },
+				{ "name": "Occulus Quest", "url": "" },
+				{ "name": "Network", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator",
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator",
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator"
+
+			],
+			"video": "resources/videos/projects/Scooter.mp4",
+			"image": "resources/images/projects/Scooter.png",
+			"logo": "",
+			"categories": ["School"]
+		},
+		{
+			"date": 2022,
+			"type": "Personal Project",
+			"title": "3D avatars modeling",
+			"description": "Learning to model avatars in lowpoly or more detailed on Blender.",
+			"tags":
+			[
+				{ "name": "Blender", "url": "" }
+			],
+			"links":
+			[
+		
+			],
+			"video": "resources/videos/projects/Fractals.mp4",
+			"image": "resources/images/projects/Fractals.png",
+			"logo": "",
+			"categories": ["Personal"]
+		},
+		{
+			"date": 2022,
+			"type": "Personal Project",
+			"title": "Fractals Generator",
+			"description": "Fractal generation and customization project to learn how to program vertex and fragment shaders on Unity3D.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Shaders", "url": ""  }
+			],
+			"links":
+			[
+				"https://github.com/TheoLefeuvre16/Fractals-Generator",
+				"https://github.com/TheoLefeuvre16/Fractals-Generator",
+				"https://github.com/TheoLefeuvre16/Fractals-Generator"
+
+
+			],
+			"video": "resources/videos/projects/Fractals.mp4",
+			"image": "resources/images/projects/Fractals.png",
+			"logo": "",
+			"categories": ["Personal"]
+		},
+		{
+			"date": 2022,
+			"type": "Personal Project",
+			"title": "Procedural land generation",
+			"description": "Project to discover how a procedural generation of a terrain can be done. Use of the A* algorithm to create rivers.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Blender", "url": ""  }
+			],
+			"links":
+			[
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation",
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation",
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation"
+
+			],
+			"video": "resources/videos/projects/Land.mp4",
+			"image": "resources/images/projects/Land.png",
+			"logo": "",
+			"categories": ["Personal"]
+		}
+		
+	]
+}

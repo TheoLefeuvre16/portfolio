@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900px" height="600px" viewBox="0 0 900 600" version="1.1">
+<g id="surface1">
+<rect x="0" y="0" width="900" height="600" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(73.72549%,0%,17.647059%);fill-opacity:1;" d="M 630 300 C 630 399.410156 549.410156 480 450 480 C 350.589844 480 270 399.410156 270 300 C 270 200.589844 350.589844 120 450 120 C 549.410156 120 630 200.589844 630 300 Z M 630 300 "/>
+</g>
+</svg>
