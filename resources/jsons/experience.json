@@ -5,16 +5,16 @@
 			"date": 2022,
 			"type": "Software engineer intern",
 			"title": "Haptique Réalité Virtuelle & Simulation",
-			"description": "Development of a virtual ride application connected to a bike simulator using the Google Maps API.Development of a virtual world and game mechanics on Unreal Engine 5.",
+			"description": "Development of a virtual ride application connected to a bike simulator using the Google Maps API.<br/><br/>Development of a virtual world and game mechanics on Unreal Engine 5 allowing to use the connected bike to interact with the environment.",
 			"tags":
 			[
-				{ "name": "C#" },
 				{ "name": "Unreal Engine 5" },
+				{ "name": "C++" },
 				{ "name": "ReactJs"},
 				{ "name": "ElectronJs"},
 				{ "name": "TypeScript"},
 				{ "name": "HTML"},
-				{ "name": "Google Map API"}
+				{ "name": "Google Maps API"}
 			],
 			"link": "https://hrv-simulation.com/",
 			"video": "none",
@@ -37,8 +37,8 @@
 		{
 			"date": "August 2019",
 			"type": "Internship",
-			"title": "Work experience in Japan - waiter",
-			"description": "A one month worker internship where I created a database of autopsy reports and modified high speed crash test footage.",
+			"title": "Waiter in a japanese hotel",
+			"description": "Internship as a waiter in a fully Japanese environment in the <a class='link' href='https://www.kumanoyu.co.jp/hotel/' target='_blank'>kumanoyu Hotel</a> to improve my language skills and discover the culture.",
 			"tags":
 			[
 				{ "name": "", "url": "" }

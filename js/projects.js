@@ -38,7 +38,7 @@ function projects_events()
 		if (featured)
 		{
 			for (let tag of project.tags)
-				tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
+				tags += `<a >${tag.name}</a>`;
 
 			if (window.innerWidth > 780)
 			{

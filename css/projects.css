@@ -312,7 +312,7 @@
 
 #projects_section .inverted .project_text .text p
 {
-	text-align: end;
+	text-align: justify;
 }
 
 #projects_section .project_text .tags

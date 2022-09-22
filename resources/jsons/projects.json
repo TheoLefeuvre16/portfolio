@@ -28,8 +28,8 @@
 		{
 			"date": 2021,
 			"type": "School Project",
-			"title": "SHOOT 'EM UP",
-			"description": "Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot' em up (gameplay, animations, VFX...).",
+			"title": "Shoot 'Em Up",
+			"description": "Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot 'Em Up by realizing the game mechanics, animations/VFX and a some of the 3D models.",
 			"tags":
 			[
 				{ "name": "Unity3D", "url": "" },
@@ -38,7 +38,7 @@
 			],
 			"links":
 			[
-				"https://github.com/TheoLefeuvre16/ShootEm-up",
+				"HTTPS://THEO-LEFEUVRE.ITCH.IO/BLACKHOLOSTAR",
 				"https://github.com/TheoLefeuvre16/ShootEm-up",
 				"HTTPS://THEO-LEFEUVRE.ITCH.IO/BLACKHOLOSTAR"
 			],
@@ -50,8 +50,8 @@
 		{
 			"date": "2020-2021",
 			"type": "School Project",
-			"title": "ELECTRIC SCOOTER SIMULATOR IN VIRTUAL REALITY",
-			"description": "Project with Tama University in Japan and presented at Laval Virtual 2021.Electric scooter simulator in virtual reality. It is a device allowing to simulate the sensations perceived during the practice of the electric scooter. For that we use two motors which communicate with Unity using an electronic card ESP32. We can thus recreate the sensations of speed, slope and rotation.",
+			"title": "Electric scooter simulator in virtual reality",
+			"description": "Project carried out in collaboration with the Japanese University of Tama and the French research laboratory PISC-L. <br/><br/> Presented at the student competition at Laval Virtual 2021. <br/><br/>Electric scooter simulator in virtual reality. It is an application that allows us to reproduce the sensations experienced while riding a scooter.<br/><br/>For this, we use 2 motors communicating with Unity through an ESP32 electronic board. We can thus recreate the sensations of speed, turn and slope.",
 			"tags":
 			[
 				{ "name": "Unity3D", "url": "" },
@@ -61,7 +61,10 @@
 			],
 			"links":
 			[
-				
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator",
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator",
+				"https://github.com/TheoLefeuvre16/Scooter-Simulator"
+
 			],
 			"video": "resources/videos/projects/Scooter.mp4",
 			"image": "resources/images/projects/Scooter.png",
@@ -71,8 +74,8 @@
 		{
 			"date": 2022,
 			"type": "Personal Project",
-			"title": "3D modelisation",
-			"description": "3D modelisation 3D modelisation3D modelisation3D modelisation3D modelisation.",
+			"title": "3D avatars modeling",
+			"description": "Learning to model avatars in lowpoly or more detailed on Blender.",
 			"tags":
 			[
 				{ "name": "Blender", "url": "" }
@@ -98,7 +101,11 @@
 			],
 			"links":
 			[
-		
+				"https://github.com/TheoLefeuvre16/Fractals-Generator",
+				"https://github.com/TheoLefeuvre16/Fractals-Generator",
+				"https://github.com/TheoLefeuvre16/Fractals-Generator"
+
+
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
 			"image": "resources/images/projects/Fractals.png",
@@ -108,7 +115,7 @@
 		{
 			"date": 2022,
 			"type": "Personal Project",
-			"title": "PROCEDURAL LAND GENERATION",
+			"title": "Procedural land generation",
 			"description": "Project to discover how a procedural generation of a terrain can be done. Use of the A* algorithm to create rivers.",
 			"tags":
 			[
@@ -117,7 +124,10 @@
 			],
 			"links":
 			[
-			
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation",
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation",
+				"https://github.com/TheoLefeuvre16/Procedural-Land-Generation"
+
 			],
 			"video": "resources/videos/projects/Land.mp4",
 			"image": "resources/images/projects/Land.png",
