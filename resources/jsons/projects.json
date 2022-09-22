@@ -21,7 +21,7 @@
 
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
-			"image": "resources/images/projects/Fractals.png",
+			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
 			"categories": ["School"]
 		},
@@ -67,7 +67,7 @@
 
 			],
 			"video": "resources/videos/projects/Scooter.mp4",
-			"image": "resources/images/projects/Scooter.png",
+			"image": "resources/images/projects/Scooter.PNG",
 			"logo": "",
 			"categories": ["School"]
 		},
@@ -85,7 +85,7 @@
 		
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
-			"image": "resources/images/projects/Fractals.png",
+			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
 			"categories": ["Personal"]
 		},
@@ -108,7 +108,7 @@
 
 			],
 			"video": "resources/videos/projects/Fractals.mp4",
-			"image": "resources/images/projects/Fractals.png",
+			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
 			"categories": ["Personal"]
 		},
@@ -130,7 +130,7 @@
 
 			],
 			"video": "resources/videos/projects/Land.mp4",
-			"image": "resources/images/projects/Land.png",
+			"image": "resources/images/projects/Land.PNG",
 			"logo": "",
 			"categories": ["Personal"]
 		}
