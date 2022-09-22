@@ -37,7 +37,7 @@ function home_in_animations()
 function home_events()
 {
 	let particles_paused = false;
-	/*particlesJS.load('particles', 'resources/jsons/particles.json');
+	particlesJS.load('particles', 'resources/jsons/particles.json');
 
 	window.addEventListener('scroll', (e) =>
 	{
@@ -54,7 +54,7 @@ function home_events()
 			particles_paused = false;
 		}
 	});
-*/
+
 	let rect = document.querySelector('#home_section .content').getBoundingClientRect();
 	document.querySelector('#home_section').style.minHeight = (rect.height + 90) + 'px';
 }
