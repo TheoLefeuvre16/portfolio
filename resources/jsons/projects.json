@@ -43,7 +43,7 @@
 
 			],
 			"video": "resources/videos/projects/Stellarium.mp4",
-			"image": "resources/images/projects/Fractals.PNG",
+			"image": "resources/images/projects/Stellarium.png",
 			"logo": "",
 			"categories": ["School"]
 		},
@@ -104,13 +104,13 @@
 			],
 			"links":
 			[
-				"none",
+				"https://github.com/tlefeuvre",
 				"none",
 				"none"
 		
 			],
-			"video": "resources/videos/projects/Modelling.mkv",
-			"image": "resources/images/projects/Fractals.PNG",
+			"video": "resources/videos/projects/Modelling.mp4",
+			"image": "resources/images/projects/Modelling.png",
 			"logo": "",
 			"categories": ["Personal"]
 		},
