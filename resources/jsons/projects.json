@@ -2,7 +2,29 @@
 	"projects":
 	[
 		{
-			"date": 2021,
+			"date": 2022,
+			"type": "School Project",
+			"title": "VR Game Jam",
+			"description": "Project realized in 3 days to develop a virtual reality game consisting in creating objects from materials.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Occulus Quest", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/VRGameJam",
+				"https://github.com/tlefeuvre/VRGameJam",
+				"none"
+
+			],
+			"video": "resources/videos/projects/VRGameJam.mp4",
+			"image": "resources/images/projects/VRGameJam.png",
+			"logo": "",
+			"categories": ["School"]
+		},
+		{
+			"date": 2022,
 			"type": "School Project",
 			"title": "Multiplayer Zombie Game",
 			"description": "Project realized in 3 days to learn how to use Unity NetCode which allows to develop multiplayer games on Unity.",
@@ -13,8 +35,8 @@
 			],
 			"links":
 			[
-				"none",
-				"none",
+				"https://github.com/tlefeuvre/NetCodeMultiplayer",
+				"https://github.com/tlefeuvre/NetCodeMultiplayer",
 				"none"
 
 			],
@@ -24,7 +46,7 @@
 			"categories": ["School"]
 		},
 		{
-			"date": 2021,
+			"date": 2022,
 			"type": "Internship",
 			"title": "Cycleo World",
 			"description": "Project realized during an internship at <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://hrv-simulation.com/en/home/' target='_blank'>HRV</a>. Creation of a virtual bike ride application.<br/><br/> Management of the game mechanics and communication with the electronic card of the <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://cottos.fr' target='_blank'>real bike</a>.",
@@ -35,8 +57,8 @@
 			],
 			"links":
 			[
-				"none",
-				"none",
+				"https://github.com/tlefeuvre",
+				"https://github.com/tlefeuvre",
 				"none"
 
 			],
