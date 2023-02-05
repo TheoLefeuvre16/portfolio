@@ -3,6 +3,53 @@
 	[
 		{
 			"date": 2022,
+			"type": "Personal Project",
+			"title": "personal game project",
+			"description": "Development of a game on Unreal Engine 5. Creation of the environment on Blender and ZBrush. Development of an animation system for an avatar. Still under development.",
+			"tags":
+			[
+				{ "name": "Unreal Engine 5", "url": "" },
+				{ "name": "C++", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre",
+				"none",
+				"none"
+
+			],
+			"video": "",
+			"image": "resources/images/projects/MyGame.png",
+			"logo": "",
+			"categories": ["Personal","game development projects"]
+		},
+			{
+			"date": 2023,
+			"type": "Personal Project",
+			"title": "3D modeling and texturing",
+			"description": " Learning to model detailed objects/avatars on Blender. Texturing on Substance Painter.You can find them on <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://sketchfab.com/HarryCobeur/' target='_blank'>sketchfab</a>",
+			"embeded":"<div class='sketchfab-embed-wrapper'> <iframe title='Space Marine Blood Angels' frameborder='0' allowfullscreen mozallowfullscreen='true' webkitallowfullscreen='true' allow='autoplay; fullscreen; xr-spatial-tracking' xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width='1200' height='562' src='https://sketchfab.com/models/a8a7c763e1424761b3041aad50f626d6/embed'> </iframe> </div>",
+			"tags":
+			[
+				{ "name": "Blender", "url": "" },
+				{ "name": "Substance Painter", "url": "" }
+			],
+			"links":
+			[
+				"https://sketchfab.com/HarryCobeur",
+				"none",
+				"none"
+		
+			],
+			"video": "none",
+			"image": "embeded",
+			"logo": "",
+			"categories": ["Personal","3D Modelisation"]
+		},
+		
+		
+		{
+			"date": 2022,
 			"type": "School Project",
 			"title": "VR Game Jam",
 			"description": "Project realized in 3 days to develop a virtual reality game consisting in creating objects from materials.",
@@ -21,7 +68,7 @@
 			"video": "resources/videos/projects/VRGameJam.mp4",
 			"image": "resources/images/projects/VRGameJam.png",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","VR/AR development projects"]
 		},
 		{
 			"date": 2022,
@@ -43,7 +90,7 @@
 			"video": "resources/videos/projects/ZombiesNetcode.mp4",
 			"image": "resources/images/projects/ZombiesNetcode.png",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","game development projects"]
 		},
 		{
 			"date": 2022,
@@ -68,6 +115,27 @@
 			"categories": ["School"]
 		},
 		{
+			"date": 2022,
+			"type": "Personal Project",
+			"title": "3D modeling and texturing",
+			"description": "Learning to model avatars in lowpoly or more detailed on Blender.",
+			"tags":
+			[
+				{ "name": "Blender", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre",
+				"none",
+				"none"
+		
+			],
+			"video": "resources/videos/projects/Modelling.mp4",
+			"image": "resources/images/projects/Modelling.png",
+			"logo": "",
+			"categories": ["Personal","3D Modelisation"]
+		},
+		{
 			"date": 2021,
 			"type": "School Project",
 			"title": "Stellarium",
@@ -89,7 +157,7 @@
 			"video": "resources/videos/projects/Stellarium.mp4",
 			"image": "resources/images/projects/Stellarium.png",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","VR/AR development projects"]
 		},
 		{
 			"date": 2021,
@@ -111,7 +179,7 @@
 			"video": "resources/videos/projects/Shoot.mp4",
 			"image": "resources/images/projects/Shoot.png",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","game development projects"]
 		},
 		{
 			"date": "2020-2021",
@@ -135,29 +203,9 @@
 			"video": "resources/videos/projects/Scooter.mp4",
 			"image": "resources/images/projects/Scooter.PNG",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","VR/AR development projects"]
 		},
-		{
-			"date": 2022,
-			"type": "Personal Project",
-			"title": "3D avatars modeling",
-			"description": "Learning to model avatars in lowpoly or more detailed on Blender.",
-			"tags":
-			[
-				{ "name": "Blender", "url": "" }
-			],
-			"links":
-			[
-				"https://github.com/tlefeuvre",
-				"none",
-				"none"
 		
-			],
-			"video": "resources/videos/projects/Modelling.mp4",
-			"image": "resources/images/projects/Modelling.png",
-			"logo": "",
-			"categories": ["Personal"]
-		},
 		{
 			"date": 2022,
 			"type": "Personal Project",
@@ -179,7 +227,7 @@
 			"video": "resources/videos/projects/Fractals.mp4",
 			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
-			"categories": ["Personal"]
+			"categories": ["other"]
 		},
 		{
 			"date": 2022,
@@ -201,7 +249,7 @@
 			"video": "resources/videos/projects/Land.mp4",
 			"image": "resources/images/projects/Land.PNG",
 			"logo": "",
-			"categories": ["Personal"]
+			"categories": ["other"]
 		}
 		
 	]

@@ -38,9 +38,20 @@
 			[
 				{
 					"name": "Blender",
-					"logo": "resources/shapes/skills/blender.svg",
+					"logo": "resources/shapes/skills/Blender.png",
 					"link": "https://www.adobe.com/products/aftereffects.html"
+				},
+				{
+					"name": "Substance Painter",
+					"logo": "resources/shapes/skills/Painter.png",
+					"link": "https://www.adobe.com/products/substance3d-painter.html"
+				},
+				{
+					"name": "ZBrush",
+					"logo": "resources/shapes/skills/ZBrush.png",
+					"link": "https://www.adobe.com/products/substance3d-painter.html"
 				}
+				
 				
 			]
 		},

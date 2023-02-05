@@ -43,7 +43,7 @@ function projects_events()
 			if (window.innerWidth > 780)
 			{
 				var isVideo = true;
-				if(project.video == "")
+				if(project.video == "none")
 					isVideo= false;
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project ${inverted ? 'inverted' : ''}">
@@ -70,9 +70,11 @@ function projects_events()
 							</div>
 						</div>
 						<div class="project_view">
-							<a href="${project.links[0]}" target="_blank">
-								<img src="${project.image}"/>
-								` + (project.video == 'none' ? '' : `
+							<a href="${project.links[0]}" target="_blank">`+
+							(project.image=='none'? '<div></div>':project.image=='embeded'? `<span>${project.embeded}</span>`:
+							`<img src="${project.image}"/>` 
+
+								)+ (project.video == 'none' ? '' : `
 								<div class="lds-ring"><div></div><div></div><div></div><div></div></div>`+
 								isVideo?`<video loop muted preload="metadata">
 									<source src="${project.video}" type="video/mp4"/>
