@@ -112,7 +112,7 @@
 			"video": "",
 			"image": "resources/images/projects/Cycleo.PNG",
 			"logo": "",
-			"categories": ["School"]
+			"categories": ["School","game development projects"]
 		},
 		{
 			"date": 2022,
@@ -227,7 +227,7 @@
 			"video": "resources/videos/projects/Fractals.mp4",
 			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
-			"categories": ["other"]
+			"categories": ["others"]
 		},
 		{
 			"date": 2022,
@@ -249,7 +249,7 @@
 			"video": "resources/videos/projects/Land.mp4",
 			"image": "resources/images/projects/Land.PNG",
 			"logo": "",
-			"categories": ["other"]
+			"categories": ["others"]
 		}
 		
 	]
