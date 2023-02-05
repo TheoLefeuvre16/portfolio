@@ -2,7 +2,7 @@
 
 function projects_events()
 {
-	let sort_by = 'Default';
+	let sort_by = 'VR/AR development projects';
 	let done;
 	let elements;
 
