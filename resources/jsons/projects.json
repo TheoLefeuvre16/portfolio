@@ -2,6 +2,31 @@
 	"projects":
 	[
 		{
+			"date": "2022-2023",
+			"type": "School Project",
+			"title": "Asymmetric VR/AR gameplay application",
+			"description": "Development of a multiplayer tower defense between a VR player (defender) and an AR player (attacker). Modeling, VFX, animations and gameplay.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "Unity NetCode (multiplayer)" , "url": "" },
+				{ "name": "Blender3D" , "url": "" },
+				{ "name": "C#", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/VR_AR_TowerDefense",
+				"https://github.com/tlefeuvre/VR_AR_TowerDefense",
+				"none"
+
+			],
+			"video": "resources/videos/projects/TowerDefense.mp4",
+			"image": "resources/images/projects/TowerDefense.png",
+			"logo": "",
+			"categories": ["Personal","VR/AR development projects"]
+		},
+
+		{
 			"date": 2022,
 			"type": "Personal Project",
 			"title": "personal game project",
