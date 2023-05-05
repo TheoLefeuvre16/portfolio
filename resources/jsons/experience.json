@@ -2,6 +2,21 @@
 	"experience":
 	[
 		{
+			"date": 2023,
+			"type": "Software engineer intern",
+			"title": "Nexter",
+			"description": "Development of an AR HMI for the supervision of drones or UAVs using Unreal Engine and Hololens. <br/><br/>In increasingly connected and complex vehicles, the goal of this project is to demonstrate the value of AR to assist operators in the field.",
+			"tags":
+			[
+				{ "name": "Unreal Engine 4" },
+				{ "name": "C++" },
+				{ "name": "Hololens"}
+			],
+			"link": "https://www.nexter-group.fr/en",
+			"video": "none",
+			"image": "resources/images/experience/Nexter.png"
+		},
+		{
 			"date": 2022,
 			"type": "Software engineer intern",
 			"title": "Haptic Virtual Reality & Simulation",

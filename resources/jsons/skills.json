@@ -119,12 +119,6 @@
 					"name": "TypeScript",
 					"logo": "resources/shapes/skills/TypeScript.svg",
 					"link": "https://www.typescriptlang.org"
-				},
-				
-				{
-					"name": "ThreeJS",
-					"logo": "resources/shapes/skills/ThreeJS.svg",
-					"link": "https://threejs.org"
 				}
 				
 			]
