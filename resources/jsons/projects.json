@@ -2,6 +2,29 @@
 	"projects":
 	[
 		{
+			"date": "2023-2024",
+			"type": "School Project",
+			"title": "Explosive Treats",
+			"description": "Development of a mobile app. Trailer creation.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "C#", "url": "" },
+				{ "name": "After Effect", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/",
+				"none",
+				"none"
+
+			],
+			"video": "resources/videos/projects/ExplosiveTreats.mp4",
+			"image": "resources/images/projects/ExplosiveTreats.PNG",
+			"logo": "",
+			"categories": ["School","game development projects"]
+		},
+		{
 			"date": "2022-2023",
 			"type": "School Project",
 			"title": "Asymmetric VR/AR gameplay application",
@@ -52,8 +75,8 @@
 			"date": 2023,
 			"type": "Personal Project",
 			"title": "3D modeling and texturing",
-			"description": " Learning to model detailed objects/avatars on Blender. Texturing on Substance Painter.You can find them on <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://sketchfab.com/HarryCobeur/' target='_blank'>sketchfab</a>",
-			"embeded":"<div class='sketchfab-embed-wrapper'> <iframe title='Space Marine Blood Angels' frameborder='0' allowfullscreen mozallowfullscreen='true' webkitallowfullscreen='true' allow='autoplay; fullscreen; xr-spatial-tracking' xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width='1200' height='562' src='https://sketchfab.com/models/a8a7c763e1424761b3041aad50f626d6/embed'> </iframe> </div>",
+			"description": " Learning to model detailed objects/avatars on Blender. Texturing on Substance Painter.You can find them on <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://sketchfab.com/TLefeuvre' target='_blank'>sketchfab</a>",
+			"embeded":"<iframe title='Space Marine Blood Angels'  xr-spatial-tracking' xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src='https://sketchfab.com/models/4497c03e892344da8d7266c2c9d30678/embed'> </iframe>  ",
 			"tags":
 			[
 				{ "name": "Blender", "url": "" },
@@ -61,7 +84,7 @@
 			],
 			"links":
 			[
-				"https://sketchfab.com/HarryCobeur",
+				"https://sketchfab.com/TLefeuvre",
 				"none",
 				"none"
 		

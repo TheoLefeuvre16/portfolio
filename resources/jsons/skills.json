@@ -33,29 +33,6 @@
 			]
 		},
 		{
-			"name" : "Design",
-			"skills" :
-			[
-				{
-					"name": "Blender",
-					"logo": "resources/shapes/skills/Blender.png",
-					"link": "https://www.adobe.com/products/aftereffects.html"
-				},
-				{
-					"name": "Substance Painter",
-					"logo": "resources/shapes/skills/Painter.png",
-					"link": "https://www.adobe.com/products/substance3d-painter.html"
-				},
-				{
-					"name": "ZBrush",
-					"logo": "resources/shapes/skills/ZBrush.png",
-					"link": "https://www.adobe.com/products/substance3d-painter.html"
-				}
-				
-				
-			]
-		},
-		{
 			"name" : "Software Development",
 			"skills" :
 			[
@@ -94,6 +71,25 @@
 					"logo": "resources/shapes/skills/Unix.svg",
 					"link": "https://en.wikipedia.org/wiki/Unix"
 				}
+			]
+		},
+		{
+			"name" : "Design",
+			"skills" :
+			[
+				{
+					"name": "Blender",
+					"logo": "resources/shapes/skills/Blender.png",
+					"link": "https://www.adobe.com/products/aftereffects.html"
+				},
+				{
+					"name": "Substance Painter",
+					"logo": "resources/shapes/skills/Painter.png",
+					"link": "https://www.adobe.com/products/substance3d-painter.html"
+				}
+				
+				
+				
 			]
 		},
 		{
