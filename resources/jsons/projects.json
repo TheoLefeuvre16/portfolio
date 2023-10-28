@@ -144,7 +144,7 @@
 			"date": 2022,
 			"type": "Internship",
 			"title": "Cycleo World",
-			"description": "Project realized during an internship at <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://hrv-simulation.com/en/home/' target='_blank'>HRV</a>. Creation of a virtual bike ride application.<br/><br/> Management of the game mechanics and communication with the electronic card of the <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://cottos.fr' target='_blank'>real bike</a>.",
+			"description": "Project realized during an internship at <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://cottos.fr/en/homepage/' target='_blank'>HRV</a>. Creation of a virtual bike ride application.<br/><br/> Management of the game mechanics and communication with the electronic card of the <a class='link'  style='color:#00a2ff;font-weight: bold;' href='https://cottos.fr' target='_blank'>real bike</a>.",
 			"tags":
 			[
 				{ "name": "Unreal Engine 5", "url": "" },
