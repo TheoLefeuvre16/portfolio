@@ -4,6 +4,30 @@
 		{
 			"date": "2023-2024",
 			"type": "School Project",
+			"title": "Rokurokubi",
+			"description": "Real-time stylized scene based on a Japanese myth. Modeling, texturing, integration and lighting.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "C#", "url": "" },
+				{ "name": "Blender3D", "url": "" },
+				{ "name": "Substance Painter", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/",
+				"none",
+				"none"
+
+			],
+			"video": "resources/videos/projects/Rokurokubi.mp4",
+			"image": "resources/images/projects/Rokurokubi.png",
+			"logo": "",
+			"categories": ["School","3D Modelisation"]
+		},
+		{
+			"date": "2023-2024",
+			"type": "School Project",
 			"title": "Explosive Treats",
 			"description": "Development of a mobile app. Trailer creation.",
 			"tags":
