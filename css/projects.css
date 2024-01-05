@@ -119,7 +119,13 @@
 	justify-content: center;
 	align-items: center;
 }
-
+.player {
+	border-radius: 10px;
+	overflow: hidden;
+	z-index: 0;
+	height: 315px;
+	width: 560px;
+  }
 #projects_section .project_view a
 {
 	display: flex;

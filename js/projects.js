@@ -2,7 +2,7 @@
 
 function projects_events()
 {
-	let sort_by = 'VR/AR development projects';
+	let sort_by = 'XR development projects';
 	let done = [];
 	let elements = [];
 
@@ -43,7 +43,7 @@ function projects_events()
 			if (window.innerWidth > 780)
 			{
 				var isVideo = true;
-				if(project.video == "none")
+				if(project.video == "none" || project.video == "")
 					isVideo= false;
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project ${inverted ? 'inverted' : ''}">
@@ -72,14 +72,14 @@ function projects_events()
 						<div class="project_view">
 							<a href="${project.links[0]}" target="_blank">`+
 							(project.image=='none'? '<div></div>':project.image=='embeded'? `<span>${project.embeded}</span>`:
-							`<img src="${project.image}"/>` 
+							`` 
 
-								)+ (project.video == 'none' ? '' : `
+								)
+								+ (project.video == "none" ? `<img src="${project.image}"/>` : `
 								<div class="lds-ring"><div></div><div></div><div></div><div></div></div>`+
-								isVideo?`<video loop muted preload="metadata">
-									<source src="${project.video}" type="video/mp4"/>
-								</video>`:`<div></div>
-								`) + `
+								isVideo?`<div class="player">
+								<iframe width="560" height="315" src="${project.video}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+								</div>`:``) + `
 							</a>
 						</div>
 					</div>`;

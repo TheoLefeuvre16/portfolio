@@ -4,6 +4,30 @@
 		{
 			"date": "2023-2024",
 			"type": "School Project",
+			"title": "Atom",
+			"description": "Multiplayer project combining the use of a video projector, a kinect and a falcon haptic arm. One player is on a simulated version of Windows and must browse through files (text and audio) in search of clues.The second player has to draw symbols using the kinect so that the falcon haptic arm can retransmit them on paper.",
+			"tags":
+			[
+				{ "name": "Unity3D", "url": "" },
+				{ "name": "C#", "url": "" },
+				{ "name": "Blender3D", "url": "" },
+				{ "name": "Substance Painter", "url": "" }
+			],
+			"links":
+			[
+				"https://github.com/tlefeuvre/",
+				"none",
+				"none"
+
+			],
+			"video": "https://www.youtube.com/embed/0d7Qru9JKp4?si=afuQvk6TN1xXVskO",
+			"image": "resources/images/projects/Rokurokubi.png",
+			"logo": "",
+			"categories": ["School","XR development projects"]
+		},
+		{
+			"date": "2023-2024",
+			"type": "School Project",
 			"title": "Rokurokubi",
 			"description": "Real-time stylized scene based on a Japanese myth. Modeling, texturing, integration and lighting.",
 			"tags":
@@ -20,7 +44,7 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/Rokurokubi.mp4",
+			"video": "https://www.youtube.com/embed/Cag92zymOv4?si=-Muzf7AjE9bmJ-iZ",
 			"image": "resources/images/projects/Rokurokubi.png",
 			"logo": "",
 			"categories": ["School","3D Modelisation"]
@@ -43,7 +67,7 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/ExplosiveTreats.mp4",
+			"video": "https://www.youtube.com/embed/Yov0_mgWP-Y?si=tiYV39-H5W2xKuXL",
 			"image": "resources/images/projects/ExplosiveTreats.PNG",
 			"logo": "",
 			"categories": ["School","game development projects"]
@@ -67,10 +91,10 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/TowerDefense.mp4",
+			"video": "https://www.youtube.com/embed/tbMiCdItdHs?si=JUTv1CiflyqFyaZg",
 			"image": "resources/images/projects/TowerDefense.png",
 			"logo": "",
-			"categories": ["Personal","VR/AR development projects"]
+			"categories": ["Personal","XR development projects"]
 		},
 
 		{
@@ -90,7 +114,7 @@
 				"none"
 
 			],
-			"video": "",
+			"video": "none",
 			"image": "resources/images/projects/MyGame.png",
 			"logo": "",
 			"categories": ["Personal","game development projects"]
@@ -113,7 +137,7 @@
 				"none"
 		
 			],
-			"video": "none",
+			"video": "",
 			"image": "embeded",
 			"logo": "",
 			"categories": ["Personal","3D Modelisation"]
@@ -123,7 +147,7 @@
 		{
 			"date": 2022,
 			"type": "School Project",
-			"title": "VR Game Jam",
+			"title": "Blacksmith game",
 			"description": "Project realized in 3 days to develop a virtual reality game consisting in creating objects from materials.",
 			"tags":
 			[
@@ -137,14 +161,14 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/VRGameJam.mp4",
+			"video": "https://www.youtube.com/embed/cKADu3Fhd7U?si=JR8Y4MzE1JLA2S2w",
 			"image": "resources/images/projects/VRGameJam.png",
 			"logo": "",
-			"categories": ["School","VR/AR development projects"]
+			"categories": ["School","XR development projects"]
 		},
 		{
 			"date": 2022,
-			"type": "School Project",
+			"type": "Personal Project",
 			"title": "Multiplayer Zombie Game",
 			"description": "Project realized in 3 days to learn how to use Unity NetCode which allows to develop multiplayer games on Unity.",
 			"tags":
@@ -159,7 +183,7 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/ZombiesNetcode.mp4",
+			"video": "https://www.youtube.com/embed/CiRQl1NczBE?si=La3P7xetGCa5BnSn",
 			"image": "resources/images/projects/ZombiesNetcode.png",
 			"logo": "",
 			"categories": ["School","game development projects"]
@@ -181,7 +205,7 @@
 				"none"
 
 			],
-			"video": "",
+			"video": "none",
 			"image": "resources/images/projects/Cycleo.PNG",
 			"logo": "",
 			"categories": ["School","game development projects"]
@@ -190,7 +214,7 @@
 			"date": 2022,
 			"type": "Personal Project",
 			"title": "3D modeling and texturing",
-			"description": "Learning to model avatars in lowpoly or more detailed on Blender.",
+			"description": "First time learning to model avatars in lowpoly on Blender.",
 			"tags":
 			[
 				{ "name": "Blender", "url": "" }
@@ -202,7 +226,7 @@
 				"none"
 		
 			],
-			"video": "resources/videos/projects/Modelling.mp4",
+			"video": "https://www.youtube.com/embed/eCsiZooK6mg?si=-OdOMIytOhk95ua8",
 			"image": "resources/images/projects/Modelling.png",
 			"logo": "",
 			"categories": ["Personal","3D Modelisation"]
@@ -226,16 +250,16 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/Stellarium.mp4",
+			"video": "https://www.youtube.com/embed/M5DTJDr_Gco?si=8GytUP3UiYGBlRVh",
 			"image": "resources/images/projects/Stellarium.png",
 			"logo": "",
-			"categories": ["School","VR/AR development projects"]
+			"categories": ["School","XR development projects"]
 		},
 		{
 			"date": 2021,
 			"type": "School Project",
 			"title": "Shoot 'Em Up",
-			"description": "Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot 'Em Up by realizing the game mechanics, animations/VFX and a some of the 3D models.",
+			"description": "Project realized during a Game jam of 2 weeks. The goal was to realize a complete Shoot 'Em Up by realizing the game mechanics, animations/VFX and some of the 3D models.",
 			"tags":
 			[
 				{ "name": "Unity3D", "url": "" },
@@ -248,7 +272,7 @@
 				"https://github.com/tlefeuvre/ShootEm-up",
 				"HTTPS://THEO-LEFEUVRE.ITCH.IO/BLACKHOLOSTAR"
 			],
-			"video": "resources/videos/projects/Shoot.mp4",
+			"video": "https://www.youtube.com/embed/KDIOX1eT7Nc?si=4hhnaD7MXXd_R268",
 			"image": "resources/images/projects/Shoot.png",
 			"logo": "",
 			"categories": ["School","game development projects"]
@@ -272,10 +296,10 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/Scooter.mp4",
+			"video": "https://www.youtube.com/embed/Hwd_wSWANd4?si=GaRqbAh_i0h0VFy0",
 			"image": "resources/images/projects/Scooter.PNG",
 			"logo": "",
-			"categories": ["School","VR/AR development projects"]
+			"categories": ["School","XR development projects"]
 		},
 		
 		{
@@ -296,7 +320,7 @@
 
 
 			],
-			"video": "resources/videos/projects/Fractals.mp4",
+			"video": "https://www.youtube.com/embed/Lb0xwFmCwWs?si=TXJPbY-kVuEmN_CS",
 			"image": "resources/images/projects/Fractals.PNG",
 			"logo": "",
 			"categories": ["others"]
@@ -318,7 +342,7 @@
 				"none"
 
 			],
-			"video": "resources/videos/projects/Land.mp4",
+			"video": "https://www.youtube.com/embed/7PFROUwn3AM?si=ppwIuGEhDNuG2Z46",
 			"image": "resources/images/projects/Land.PNG",
 			"logo": "",
 			"categories": ["others"]
